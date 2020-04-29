@@ -5,12 +5,7 @@ def find_min_in_nested_arrays(src)
   new_array = []
 
     while count < src.length do
-      inner_count = 0
-
-      while inner_count < src[count].length do
-        new_array << src[count][inner_count].sort.first
-        inner_count += 1
-      end
+      new_array << src[count].sort.first
 
       count += 1
     end
@@ -18,3 +13,11 @@ def find_min_in_nested_arrays(src)
 end
 
 new_array
+
+
+#inner_count = 0
+
+#while inner_count < src[count].length do
+  #new_array << src[count][inner_count].sort.first
+  #inner_count += 1
+#end
