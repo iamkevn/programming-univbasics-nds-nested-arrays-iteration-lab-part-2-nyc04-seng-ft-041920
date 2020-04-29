@@ -10,9 +10,8 @@ def find_min_in_nested_arrays(src)
       count += 1
     end
 
+puts new_array
 end
-
-return new_array
 
 
 #inner_count = 0
